@@ -1,0 +1,30 @@
+body {
+  margin: 50px;
+}
+
+main {
+  display: flex;
+}
+
+.add {
+  margin: 50px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #919191;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+  transition: ease-in-out 0.3s;
+}
+
+.add:hover {
+  transform: scale(1.2);
+  transform-origin: center;
+}
+
+.add img {
+  width: 30px;
+  height: 30px;
+}
